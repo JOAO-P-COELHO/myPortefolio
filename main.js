@@ -5,8 +5,8 @@ $("#toggle-btn").click(function () {
         
       
       //toggle button text
-      $("span").text(
-        $("span").text() == "Day" ? "Night" : "Day"
+      $(".time").text(
+        $(".time").text() == "Day" ? "Night" : "Day"
       );
     });
     $("#toggle-btn").click(function () {
