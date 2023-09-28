@@ -1,7 +1,0 @@
-const alfa = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"];
-
-let str = "CENAS";
-
-let length = str.length;
-length; //teste
-alfa[13]; //teste

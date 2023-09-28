@@ -14,7 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,600&display=swap" rel="stylesheet"> <!-- Fonts -->
   <script src="https://kit.fontawesome.com/369c1756a5.js"crossorigin="anonymous"></script> <!-- Font Awesome (icons) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jquery library -->
-
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> <!-- ionicons (icons) -->
 </meta>
  </head>
 
@@ -37,16 +38,40 @@
       <hr style="height:5px;border-width:3px;color:gold;background-color:grey" />
       <h2>yeah. I work on Web Development now</h2>
       <hr style="height:5px;border-width:3px;color:grey;background-color:gold" />
-      <h3>myStack :</h3> <em>(div under construction)</em>
-      <p>
-        <br>HTML
-        <br>CSS
-        <br>Javascript(still basic level)
-        <br>C (still basic level)
-        <br>Bootstrap
-        <br>jQuery
-        <br>Sass
-      </p>
+      <h3>myStack :</h3>
+      <br>
+      
+      <div class="stack">
+        <div class="icons1"> 
+          <div class="HTML"><ion-icon name="logo-html5"></ion-icon></div>
+          <p>HTML</p> 
+          <div class="Bootstrap"><svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bootstrap-fill" viewBox="0 0 16 16">
+            <path d="M6.375 7.125V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762h1.898c1.184 0 1.81-.48 1.81-1.377 0-.885-.65-1.348-1.886-1.348H6.375v2.725z"/>
+            <path d="M4.002 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4h-8zm1.06 12V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396H5.062z"/>
+            </svg></div>
+            <p>Bootstrap</p> 
+          
+          </div>
+        <div class="icons2">
+          <div class="CSS"> <ion-icon name="logo-css3"></ion-icon></div>
+            <p>CSS</p>
+            <div class="Sass"><ion-icon name="logo-sass"></ion-icon></div>
+            <p>Sass</p>
+            
+          </div>
+        <div class="icons3"> 
+          <div class="JavaScript"> <ion-icon name="logo-javascript"></ion-icon></div>
+            <p>JavaScript</p>
+            <div class="jquery"><img src="/icons/jquery.svg" id="jQuery"></div>
+          <p>jQuery</p>
+          
+          <!-- FALTA METER O C -->
+        <!--  <div class="C stack"><div class="jquery"><img style="width:1%;"  src="/icons/C.svg">C (still basic level)</div>-->
+        </div>
+      </div>
+       
+      </div>
+      
       </section>
      
   <section id="projects">
@@ -91,8 +116,9 @@
     <h1>Contact me</h1>
     <hr style="height:5px;border-width:3px;color:grey;background-color:gold" />
     <div class="contact">
-      <div><a id="ig" href="https://github.com/JOAO-P-COELHO"    target="_blank"> GitHub <i class="fab fa-github-square" style="color: #2e5981;"></i></a></div> 
-      <div><a id="github" href="https://www.instagram.com/joao_ppsc/"  target="_blank"> Instagram  <i class=" fab fa-instagram-square" style="color: #2e5981;"></i></a></div></div>
+      <div><a id="ig" href="https://github.com/JOAO-P-COELHO"    target="_blank">  <ion-icon name="logo-github"></ion-icon></a></div> 
+      
+      <div><a id="github" href="https://www.instagram.com/joao_ppsc/"  target="_blank"><ion-icon name="logo-instagram"></ion-icon></i></a></div></div>
   </section> 
   </section> 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

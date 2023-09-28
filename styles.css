@@ -183,3 +183,42 @@ padding-bottom: 16px;
   color:inherit;
 }
 
+.stack{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+ion-icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.bi-bootstrap-fill{
+  width: 3rem;
+  height: 3rem;
+ 
+}
+
+#jQuery{
+  width: 3rem !important;
+  height: 3rem !important;
+  object-fit: contain;
+  clip-path: none !important;
+  
+}
+
+#jQuery.change-background2 { /* Cria diretamente, e atribui, uma class ao jQuery*/  
+  width: 3rem !important;
+  height: 3rem !important;
+  object-fit: contain;
+  clip-path: none !important;
+  filter:invert(100%);
+  }
+
+.stack p{
+  padding-top: 0.5rem;
+  margin-bottom:2rem;
+  margin-bottom:2rem;
+}
+
